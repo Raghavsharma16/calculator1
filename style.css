@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    margin-top: 23px;
+    animation: bgcolor infinite 20s;
+}
+table{
+    margin: auto; 
+}
+h1{
+font-size: 50px;
+}
+
+
+input{
+    font-size: 34px;
+    border: 5px solid rgb(0, 247, 255);
+    border-radius: 15px;
+    background-color: gray;
+}
+button{
+    font-size: 40px;
+    background-color: aqua;
+    width: 104px;
+    height: 60px;
+    border-radius: 50px;
+}
+.calculator{
+    background-color: #9290ff;
+    border-radius: 40px;
+    display: inline-block;
+}
+@keyframes bgcolor{
+    0%{
+        background: #3498db;
+    }
+    20%{
+        background: #f1c40f;
+    }
+    40%{
+        background:#2c3e50 ;
+    }
+    60%{
+        background:#eb4d4b ;
+    }
+    80%{
+        background:#f0932b ;
+    }
+    100%{
+        background: #535c68;
+    }
+}
